@@ -7,7 +7,7 @@ AI output can be JSON already, or free text passed through an `llm` callable.
 ## Install
 
 ```bash
-git clone https://github.com/hkjansonchan/template-to-PDF.git
+git clone https://github.com/hkjanson/template-to-PDF.git
 cd template-to-PDF
 pip install -e .
 npm install
@@ -75,17 +75,21 @@ npm test
 
 ## Contributing
 
+#### Clone the repository to your local machine
+
 ```bash
-# Clone the repository to your local machine
-git clone https://github.com/hkjansonchan/template-to-PDF.git
+git clone https://github.com/hkjanson/template-to-PDF.git
+```
 
-# Make changes
-
+#### Pull request
+```bash
+# Contribute
 # Create and switch to a new branch (or skip this if using an existing branch)
 git branch your-branch-name
 
 # Commit your changes with a descriptive message
-git commit -m ""
+git commit -m "message"
 
 # Push your branch to GitHub
 git push -u origin your-branch-name
+```
